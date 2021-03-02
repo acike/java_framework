@@ -1,5 +1,7 @@
 package com.example.kbtg.user;
 
+import lombok.Data;
+
 public class UserResponse {
     private Integer id;
     private String name;
@@ -37,5 +39,7 @@ public class UserResponse {
     public void setName(String name) {
         this.name = name;
     }
+
+
 
 }

@@ -25,8 +25,7 @@ public class UserControllerTest {
         assertEquals(30, response.getAge());
         // Quiz
         UserResponse expected = new UserResponse(1, "somkiat", 30);
-        assertEquals(expected.getId(), response.getId());
-        //assertEquals(30, response.getAge());
+        assertEquals(expected, response);
     }
 
 }
